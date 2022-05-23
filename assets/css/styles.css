@@ -1,0 +1,45 @@
+/* Fonts */
+@font-face {
+  font-family: PressStart2P;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+/* BG */
+
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #514848 0%, #332e2e 100%);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ROBOT */
+
+.img-wrapper {
+  padding: 0;
+  padding-top: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hello World */
+.text-wrapper {
+  margin-top: 34px;
+}
+h1 {
+  padding: 0;
+  text-align: center;
+  font-family: "PressStart2P";
+  font-size: 48px;
+  line-height: 48px;
+}
+.sign {
+  color: aliceblue;
+}
+.hello {
+  color: aquamarine;
+}
+.world {
+  color: yellowgreen;
+}
